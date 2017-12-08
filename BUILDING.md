@@ -2,9 +2,9 @@ Building and Running the bootable images
 =======
 Before to do the following, you should have the following two softwares:
 
-[Netwide Assembler](http://nasm.sourceforge.net,"NASM's Official Website")
+[Netwide Assembler](http://nasm.sourceforge.net "NASM's Official Website")
 
-[Quick EMUlator](http://www.qemu.org,"QEMU's Official Website")
+[Quick EMUlator](http://www.qemu.org "QEMU's Official Website")
 
 You may gain the bootable images by:
 
