@@ -12,6 +12,7 @@ gdt_code:	; the code segment descriptor
 	; 2nd flags: (granularity)1 (32-bit default)1 (64-bit seg)0 (AVL)0 -> 1100b
 	dw	0xffff	; limit (bits 0-15)
 	dw	0x0		; Base (bits 0-15)
+	db	0x0		; Base (bits 16-23)
 	db	10011010b	; 1st flags, type flags
 	db	11001111b	; 2nd flags, Limit (bits 16-19)
 	db	0x0	; Base (bits 24-31)
