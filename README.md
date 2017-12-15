@@ -13,6 +13,13 @@ This repo will show every code I wrote in order to write my OS at [TravorOS Repo
 
 `memorydemo`: Some demos of reading disk and memory
 
+`kerneltest`: This is a failed demonstration of loading assembly kernel.
+
 ### OS in 32 bit protected mode
 
 `helloworld32`: basic 32 bit programs
+
+`kerneltest32`: A successful demonstration of loading c kernel in 32-bit protected mode
+
+##### Note
+`kerneltest32` may be the last project I created in this repo. If you want to find more

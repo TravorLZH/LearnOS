@@ -1,7 +1,7 @@
 [bits	32]
 ; Define some constants
 VIDEO_MEMORY	equ	0xb8000
-WHITE_ON_BLACK	equ	0xfc
+WHITE_ON_BLACK	equ	0x0f
 
 ; prints a null-terminated string pointed by EDX
 print_string_pm:
