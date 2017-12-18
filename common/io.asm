@@ -23,26 +23,7 @@ add_char_hex:
 add_7:
 	add	bh,0x7
 	jmp	add_char_hex
-HEX_OUT:
-	db	'0x0000',0
-print_string:
-	mov	ah,0Eh
-.rep:
-	mov	al,[bx]
-	add	bx,1
-	cmp	al,0
-	je	.done
-	int	10h
-	jmp	.rep
-.done:
-	ret
-CRLF:
-	mov	ah,0Eh
-	mov	al,0xD
-	int	10h
-	mov	al,0xA
-	int	10h
-	ret
+HEX_OUT	db	'0x0000',0
 
 ; Read Character from keyboard
 ; Returns: AL the character read from keyboard
