@@ -23,4 +23,4 @@ This repo will show every code I wrote in order to write my OS at [TravorOS Repo
 
 ##### Note
 
-`kerneltest32` may be the last project I created in this repo. If you want to find more, check out [TravorOS](https://github.com/TravorLZH/TravorOS")
+`kerneltest32` may be the last project I created in this repo. If you want to find more, check out [TravorOS](https://github.com/TravorLZH/TravorOS)
