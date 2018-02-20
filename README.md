@@ -22,4 +22,5 @@ This repo will show every code I wrote in order to write my OS at [TravorOS Repo
 `kerneltest32`: A successful demonstration of loading c kernel in 32-bit protected mode
 
 ##### Note
-`kerneltest32` may be the last project I created in this repo. If you want to find more
+
+`kerneltest32` may be the last project I created in this repo. If you want to find more, check out [TravorOS](https://github.com/TravorLZH/TravorOS")
